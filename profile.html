@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> MEETUPS | About</title>
+	<title> Questioner | User_Profile</title>
     <meta charset ="utf-8"/>
     <meta  name ="viewport" content ="width = device-width "/>
     <meta name = "description" content = "stylistic web page"/>
@@ -12,7 +12,7 @@
 
 <body>
 	<header>
-		<div class ="container">
+		<div class ="container" style="position: relative">
          <div id ="branding">
            <h1> <span class="highlights"> Questioner</span> Meetups </h1>
          </div>
@@ -21,8 +21,8 @@
            <ul>  
              <li><a href ="index.html"> Home</a></span></li>
              <li><a href ="signup.html"> Signup</a></li>
-             <li><span class="current"><a href ="about.html"> About Us </a> </span></li>
-          
+             <li><span class="current"><a href ="profile.html"> Profile </a> </span></li>
+            <li><a href ="sign-in.html"> SIGN-IN</a></li>
 
            </ul>
          </nav>
@@ -36,7 +36,7 @@
            
           <h1> Subscribe to our newletter </h1>
 
-          <form action ="process.php">
+          <form action ="">
           	<input type ="email" placeholder="enter e-mail " required = "required">
           	<button class = "button_1" type = "submit"> Subscribe </button>
           </form>
@@ -46,22 +46,17 @@
 
 	<section id ="main">
 	<div class= "container">
-    <article id="main-col">
-    <h1 class="page-title"> About Us </h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at lorem commodo, venenatis dolor non, porttitor enim. </p>
-    <div class="dark">
-    <p>
-      
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at lorem commodo, venenatis dolor non, porttitor enim. Etiam efficitur lorem vitae nisi ullamcorper, finibus dignissim dui vehicula. Curabitur sit amet felis mi. 
-    </p>
+    <div id="main-col">
+    <h1 class="page-title"> Post Your Comment </h1>
+    <div>
+      <form>
+       <textarea row ="67" col="56"> </textarea>
+       <div>
+        <button type="submit" class="button_1"> Post</button>
       </div>
-</article>
-    <aside id= "sidebar">
-      <div class ="dark">
-    <h1> What we do </h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.tincidunt non venenatis non, dignissim et odio. Maecenas nec felis ac justo finibus feugiat et at dui.</p>
-
-   </aside>
+      </form>
+    </div>
+    
       
 </div>
 	</div>
