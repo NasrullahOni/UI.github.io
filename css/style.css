@@ -186,20 +186,14 @@ text-align: center;
 }
 
 
-
- ul#services li{
- background:grey;
- border: grey solid 1px;
- padding:10px;
- margin-bottom: 5px;
- list-style: none;
-
+textarea{
+	height:80px;
+	width:60%;
 }
 
-aside#sidebar .quote  input,aside#sidebar .quote  textarea{
-	width:90%;
-	padding:5px;
-} 
+
+
+
 
 
 @media(max-width:768px){
@@ -227,11 +221,7 @@ header nav li .serv{
 	width:100%;
 }
 
-article#main-col, aside#sidebar{
-	float:none;
-	text-align: center;
-	width:100%;
-}
+
 
 #newsletter .button_1{
 	display: block;
