@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Questioner | Admin</title>
+    <meta charset ="utf-8"/>
+    <meta  name ="viewport" content ="width = device-width "/>
+    <meta name = "description" content = "stylistic web page"/>
+    <meta name = "keywords" content =  " stylistic, webpage, realweb"/>
+    <meta name = "author "  content = "Nasrullah"/>
+    <link rel ="stylesheet" href = "./css/adminStyle.css"/>
+</head>
+
+<body>
+	<header>
+    
+		<div class ="container background">
+         <div id ="branding">
+           <h1> <span class="highlights"> Questioner</span> Meetups </h1>
+         </div>
+         
+         <nav>
+           <ul>  
+             <li><a href ="index.html"> Home</a></span></li>
+             <li><span class="current"><a href ="signup.html"> SIGNUP</a></span></li>
+             <li><a href ="sign-in.html"> SIGN-IN</a></li>
+  
+           </ul>
+         </nav>
+
+		</div>
+  </header>
+  
+  <div class="container">
+    <section>
+      <div class= "admin slay">
+        <h1> ADMIN SECTION <img src="./img/admin.jpg"/> </h1>
+        <button style="float:right" class = "button_1" type = "submit"><a style="text-decoration: none;color:white" href="adminSigin.html"> SignOut</a> </button>
+       <div>
+      <h2>To Create a meetup click the create button  <button id="modal-button" style="padding-left: 6px;" type "text" class ="sign">CREATE</a></button></h2>
+
+       </div>
+
+        </div>
+      </section>
+      </div>
+
+
+      <section>
+          <p class="head">CURRENT MEETUPS </P>
+          <div class="border">
+            <div class="sub_border">
+              <p>ID: 01</p>
+              <p>Topic: 01</p>
+              <p>Date and Time: 2:00 AM 11/October/2015  </p>
+              <a href="meetupInfo.html"><button>See page</button></a>
+            </div>
+            <div class="sub_border">
+              <p>ID: 02</p>
+              <p>Topic:  02</p>
+              <p>Date and Time: 2:00 AM 11/October/2015</p>
+              <a href="meetupInfo.html"><button>See page</button></a>
+            </div>
+            <div class="sub_border">
+              <p>ID: 03</p>
+              <p>Topic: 03</p>
+              <p>Date and Topic: 2:00 AM 11/October/2015</p>
+              <a href="meetupInfo.html"><button>See page</button></a>
+            </div>
+            <div class="sub_border">
+              <p>ID: 04</p>
+              <p>Topic: 04</p>
+              <p>Date and Time: 2:00 AM 11/October/2015</p>
+              <a href="meetupInfo.html"><button>See page</button></a>
+            </div>
+            <div class="sub_border">
+              <p>ID: 05</p>
+              <p>Topic: 05</p>
+              <p>Date and Time: 2:00 AM 11/October/2015</p>
+              <a href="#"><button>See page</button></a>
+            </div>
+            <div class="sub_border">
+              <p>ID: 06</p>
+              <p>Topic: 06</p>
+              <p>Date and Time: 2:00 AM 11/October/2015</p>
+              <a href="meetupInfo.html"><button>See page</button></a>
+            </div>
+          </div>
+        </section>
+
+       
+      <div id="simple-modal" class="modal">
+          <div class="modal_content">
+            
+            <div class="create_form">
+                <span class="close_btn">&times;</span>
+            <form>
+              <fieldset>
+                  
+                <legend> Meetup Form</legend>
+                
+                <input type="text" name="topic" placeholder=" Topic-Meetup *"/>
+                <textarea name="location" placeholder="Location *"></textarea>
+                <label> Image Upload</label>
+                <input type="file" accept="image/*" name="image" />
+
+                <label>Time and Date of the meetup:</label>
+                <input type="datetime-local" name="date" min="2019-01-01" max="2025-01-01" id="date" />
+              </fieldset>
+              <input type="submit" value="Submit" />
+            </form>
+            </div>
+          </div>
+        </div>
+        <div>
+            <footer>
+                <p>Questioner web design, Copyright &copy; 2017 </p> 
+              </footer>
+          
+    
+
+            <script type="text/javascript" src="scripts/createmodal.js">
+            </script>
+            <script type="text/javascript" src="scripts/tags.js">
+            </script>
+	
+
+</body>
+</html>
