@@ -1,8 +1,8 @@
-sbody{
+body{
     font:15px/1.5  Arial Helvetica, sans-serif;
     padding:0;
     margin:0;
-    background-image:url("../img/images-background.jpg") no-repeat 
+    background-color: #f4f4f4;
   }
   /*Global*/
   .container{
@@ -73,71 +73,35 @@ sbody{
       color:grey;
       font-weight: bold;
   }
-
-  .slay h1{
-      text-align: center;
-      font-weight: 300;
-  }
   
-  .create {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    background: #555555;
-  }
-  
-
-  
-  .create_form input[type="submit"]:hover {
-      background: #e78f0b;
-  }
-  
-  #date {
-    padding: 10px 10px;
-    margin-bottom: 15px;
-    font-size: 1.3em;
+  .dark{
+      padding:15px;
+      background:#35424a;
+      color:#ffffff;
+      margin-top: 10px;
+      margin-bottom: 10px;
   }
 
-.createform{
-    
+ 
 
-}
+ .grip p{
+     margin: 0;
+     display: inline;
+ }
 
-#backo{
-    background: wheat;
-    width:80%;
-    padding-left:10px;
-    padding-bottom: 7px;
-    
-}
-
-#backo form input, #backo form select{
-    width:65%;
-    height: 40px;
-    border-radius: 4px;
-    border-bottom: orange;
-}
-#backo form input[type="submit"]:hover{
-background-color:orange
-}
-.createform h2{
-    text-align: center;
-}
- button{
-    float: right;
-    margin-top: 15px;
-    background: orange;
-    height: 30px;
-}
-button a{
+ .grip button{
+     float: right;
+     background-color: orange;
+     font-weight: bold;
+ }
+ .grip h2{
+     text-align: center
+ }
+.grip button a{
     text-decoration: none;
     color:black;
 }
-
-  footer{
+ footer{
     padding:20px;
     margin-top: 20px;
     color:#ffffff;
